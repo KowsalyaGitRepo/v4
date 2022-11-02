@@ -1,13 +1,14 @@
 ---
 date: '2017-12-21'
-title: 'UI Engineer Co-op'
-company: 'Apple'
-location: 'Cupertino, CA'
-range: 'July - December 2017'
-url: 'https://www.apple.com/music/'
+title: 'Web/Mobile Application developer'
+company: 'Mereal Biometrics'
+location: 'Hong Kong'
+range: 'Mar 2019 - Mar 2020'
+url: 'https://www.meralbiometrics.com'
 ---
 
-- Developed and shipped highly interactive web applications for Apple Music using Ember.js
-- Built and shipped the Apple Music Extension within Facebook Messenger leveraging third-party and internal APIs
-- Architected and implemented the front-end of Apple Music's embeddable web player widget, which lets users log in and listen to full songs in the browser
-- Contributed extensively to MusicKit.js, a JavaScript framework that allows developers to add an Apple Music player to their web apps
+- Participated in the planning, analysis, and design of iOS and Android applications
+- Developed two applications for the in-house product and developed both native iOS and android mobile application
+- Deployed iOS apps in AppCenter and Android apps in Play store
+- Provided support services for in-house product to clients and partners
+- Participated in marketing events for Pre sale activities

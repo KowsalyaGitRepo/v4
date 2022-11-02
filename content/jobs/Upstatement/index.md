@@ -1,12 +1,15 @@
 ---
-date: '2018-05-14'
-title: 'Engineer'
-company: 'Upstatement'
-location: 'Boston, MA'
-range: 'May 2018 - Present'
-url: 'https://www.upstatement.com/'
+date: 'Feb 2022 - Oct 2022'
+title: 'Software Engineer'
+company: 'OKX'
+location: 'Hong Kong'
+range: 'Feb 2022 - Oct 2022'
+url: 'https://www.okx.com/'
 ---
 
-- Write modern, performant, maintainable code for a diverse array of client and internal projects
-- Work with a variety of different languages, platforms, frameworks, and content management systems such as JavaScript, TypeScript, Gatsby, React, Craft, WordPress, Prismic, and Netlify
-- Communicate with multi-disciplinary teams of engineers, designers, producers, and clients on a daily basis
+- Worked as an Android Engineer
+- Developed the user stories related to the backend which were implemented during each sprint
+- Fixed critical bugs with applications related to native code, device compatibility, and version
+- Used JIRA for Agile project tracking and keep sprints on track
+- Used Jenkins for continuous integration/continuous delivery and deployment(CI/CD) automation
+- Attended daily agile scrum standup to discuss project progress

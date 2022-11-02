@@ -1,11 +1,10 @@
 ---
 date: '2017-04-01'
-title: 'Studio Developer'
-company: 'Scout'
-location: 'Northeastern University'
-range: 'January - June 2017'
-url: 'https://web.northeastern.edu/scout/'
+title: 'Mobile Application developer'
+company: 'Full max capital investment'
+location: 'Hong Kong'
+range: 'Sep 2016 - Feb 2019'
 ---
 
-- Collaborated with a small team of student designers to spearhead a new brand and design system for Scout’s inaugural student-led design conference at Northeastern
-- Worked closely with designers and management team to develop, document, and manage the conference’s marketing website using Jekyll, Sass, and JavaScript
+- Participated in the planning, analysis, and design of native/hybrid iOS and Android applications.
+- Developed complete native android application from scratch.

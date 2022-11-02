@@ -1,12 +1,15 @@
 ---
 date: '2018-04-01'
-title: 'Studio Developer'
-company: 'Scout'
-location: 'Northeastern University'
-range: 'January - April 2018'
-url: 'https://web.northeastern.edu/scout/'
+title: 'Web/Mobile Application develoepr'
+company: 'Chekk'
+location: 'Hong Kong'
+range: 'April 2020 - Jan 2022'
+url: 'https://www.chekk.me'
 ---
 
-- Worked with a team of three designers to build a marketing website and e-commerce platform for [blistabloc](https://blistabloc.com), an ambitious startup originating from Northeastern
-- Helped solidify a brand direction for blistabloc that spans both packaging and web
-- Interfaced with clients on a weekly basis, providing technological expertise
+- International French team
+- Developed the user stories related to the backend which were implemented during each sprint.
+- Fixed critical bugs with applications related to native code, device compatibility, and version.
+- Used JIRA for Agile project tracking and keep sprints on track.
+- Deployed iOS in AppStore and Android applications in PlayStore.
+- Attended daily agile scrum standup to discuss project progress.
