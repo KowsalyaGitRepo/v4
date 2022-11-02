@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://kowsalyamanickam.com/KowsalyaGitRepo/sitemap/sitemap-index.xml
+Host: https://kowsalyamanickam.com
