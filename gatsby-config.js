@@ -1,8 +1,6 @@
 const config = require('./src/config');
 
 module.exports = {
-  pathPrefix: '/',
-
   siteMetadata: {
     title: 'Kowsalya M | Mobile Developer',
     description:
