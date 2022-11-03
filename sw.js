@@ -27,7 +27,7 @@ workbox.core.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-d279ca074c148ddf5ee0.js"
+    "url": "webpack-runtime-d96dead492e6e1c3bb7f.js"
   },
   {
     "url": "framework-f81f7b58317a207c59d0.js"
@@ -36,18 +36,18 @@ self.__precacheManifest = [
     "url": "dc6a8720040df98778fe970bf6c000a41750d3ae-39f9a1d2154eb9590085.js"
   },
   {
-    "url": "app-1aa535a6963509461ef5.js"
+    "url": "app-bcfe83758b86abc76c91.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "80ae5d877883d70d8c90868aa6787fbd"
+    "revision": "c476d1a73b87e44651e135f5715df36c"
   },
   {
     "url": "polyfill-51fd3860cf8afd0c4ff8.js"
   },
   {
     "url": "manifest.webmanifest",
-    "revision": "d18fe12c3e90231ff24b75da9bdb1f6f"
+    "revision": "9d2220d7e42fdc8b857a06d5aa37cf7d"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
@@ -152,12 +152,12 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
   lastNavigationRequest = event.request.url
 
   let { pathname } = new URL(event.request.url)
-  pathname = pathname.replace(new RegExp(`^/KowsalyaGitRepo`), ``)
+  pathname = pathname.replace(new RegExp(`^`), ``)
 
   // Check for resources + the app bundle
   // The latter may not exist if the SW is updating to a new version
   const resources = await idbKeyval.get(`resources:${pathname}`)
-  if (!resources || !(await caches.match(`/KowsalyaGitRepo/app-1aa535a6963509461ef5.js`))) {
+  if (!resources || !(await caches.match(`/app-bcfe83758b86abc76c91.js`))) {
     return await fetch(event.request)
   }
 
@@ -170,7 +170,7 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
     }
   }
 
-  const offlineShell = `/KowsalyaGitRepo/offline-plugin-app-shell-fallback/index.html`
+  const offlineShell = `/offline-plugin-app-shell-fallback/index.html`
   const offlineShellWithKey = workbox.precaching.getCacheKeyForURL(offlineShell)
   return await caches.match(offlineShellWithKey)
 })
