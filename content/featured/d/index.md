@@ -6,7 +6,7 @@ external: 'https://play.google.com/store/apps/details?id=co.shopins.member&hl=en
 tech:
   - Java/Android studio
   - SVN
-  - Git
+  - GIT
 showInProjects: false
 ---
 
