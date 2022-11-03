@@ -1,6 +1,8 @@
 const config = require('./src/config');
 
 module.exports = {
+  pathPrefix: '/KowsalyaGitRepo',
+
   siteMetadata: {
     title: 'Kowsalya M | Mobile Developer',
     description:
