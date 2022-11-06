@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: https://kowsalyamanickam.com/v4/sitemap/sitemap-index.xml
-Host: https://kowsalyamanickam.com
+Sitemap: https://kowsalyagitrepo.github.io/v4/sitemap/sitemap-index.xml
+Host: https://kowsalyagitrepo.github.io
