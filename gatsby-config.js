@@ -1,13 +1,13 @@
 const config = require('./src/config');
 
 module.exports = {
-  pathPrefix: '/KowsalyaGitRepo',
+  pathPrefix: '/v4',
 
   siteMetadata: {
     title: 'Kowsalya M | Mobile Developer',
     description:
       'Kowsalya Manickam is a software engineer who specializes in mobile application development',
-    siteUrl: 'https://kowsalyamanickam.com', // No trailing slash allowed!
+    siteUrl: 'https://kowsalyagitrepo.github.io/v4/', // No trailing slash allowed!
     image: '/og.png',
     twitterUsername: '',
   },
